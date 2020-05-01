@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nextpage">
+    <TextView
+        android:text="Who is Primeminester of India"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:text="NARENDRA MODI"
+        android:id="@+id/pg_2_op_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/pg_2_op_2"
+        android:text="RAHUL GANDHI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/pg_2_op_3"
+        android:text="MAMATA BANERJEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/pg_2_op_4"
+        android:text="ARVIND KEJRIWALL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RadioGroup>
+<Button
+android:id="@+id/submit"
+android:text="Submit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
